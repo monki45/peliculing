@@ -1,0 +1,134 @@
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    background-color: #373535;
+    color: yellow;
+    height: 100vh;
+    font-style: italic;
+    background-image: url("../images/collage.jpg");
+}
+
+.general-container{
+    font-family: serif;
+    background-color: rgba(0, 0, 0, 0.78);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.registro, .biblioteca, .iniciosesion, .soporte{
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: yellow;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+    font-style: italic;
+    border-radius: 4px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.registro:hover, .biblioteca:hover, .iniciosesion:hover, .soporte:hover{
+    background-color: #ffcc00;
+}
+
+.registro {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: yellow;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.cabecera {
+    color: yellow;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    position: relative;
+}
+
+.interno-cabecera1{
+    flex: 1 1 0px;
+    text-align: left;
+    position: relative; 
+    top: -20px;
+    padding: 10px; 
+}
+
+.interno-cabecera2{
+    flex: 1 1 0px;
+    position: relative; 
+    top: -30px;
+    padding: 10px; 
+}
+
+.cabecera h1 {
+    font-size: 40px;
+}
+
+#ultimas-adiciones {
+    font-size: 19px;
+    padding: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.peliculas {
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .pelicula{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 15%;
+    }
+}
+
+.pelicula img:hover{
+    transform: scale(1.1);
+}
+
+.footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.datos{
+    font-size: 15px;
+    position: fixed;
+    left: 20px;
+}
+
+.soporte {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    border-color: black;
+    cursor: pointer;
+    z-index: 1000;
+}
