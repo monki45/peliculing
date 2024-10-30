@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+}
+/* Valores de palabras clave
+odd
+Representa elementos cuya posición numérica en una serie de hermanos es impar: 1, 3, 5, etc.
+
+even
+Representa elementos cuya posición numérica en una serie de hermanos es par: 2, 4, 6, etc. */
+.row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.image, .text {
+  flex: 1;
+  padding: 10px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

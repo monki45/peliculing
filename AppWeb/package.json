@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express-generator": "^4.2.0"
+  },
+
+  "scripts": {
+    "start" : "node web/app.js"
+  }
+}
